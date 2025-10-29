@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="description" content="Rodrigo Pereira portfolio" />
+  <title>Rodrigo Pereira | Software Engineer and Hopeful Game Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header__inner">
+      <div class="brand">
+        <a class="brand__link" href="#" aria-label="Home">
+          <span class="brand__name">Rodrigo Pereira</span>
+        </a>
+        <p class="brand__tagline">Software Engineer and Hopeful Game Developer</p>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+        <ul id="nav-menu" class="nav__list">
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#sketches">Art</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- About -->
+    <section class="part" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <div class="prose">
+          I've always been fascinated by games and how the simplest virtual worlds come alive when charged with creativity. They were the catalyst for my interest in art and drawing quickly became my most fulfilling hobby. I also eventually discovered 3d sculpting, modelling, rigging and animation which led me even closer to game development. Now, I hope to contribute to creating games, be it developing core gameplay systems or working closer to game designers and providing tools for content creation.
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="part" id="skills">
+        <div class="container">
+            <h2 class="section__title">Skills</h2>
+            
+            <div class="skills__container">
+            <article class="skills__card">
+            <h3 class="skills__title">Programming Languages:</h3>
+            <ul class="skills__list">
+                <li>Java</li>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>Kotlin</li>
+                <li>C# (Unity)</li>
+                <li>C</li>
+            </ul>
+            </article>
+
+            <article class="skills__card">
+            <h3 class="skills__title">Libraries and Frameworks:</h3>
+            <ul class="skills__list">
+                <li>Django</li>
+                <li>Spring Boot</li>
+                <li>React</li>
+                <li>Axios</li>
+                <li>JQuery</li>
+                <li>Gymnasium</li>
+                <li>SB3-contrib</li>
+            </ul>
+            </article>
+
+            <article class="skills__card">
+            <h3 class="skills__title">Other:</h3>
+            <ul class="skills__list">
+                <li>Postman</li>
+                <li>Linux</li>
+                <li>Git / GitHub</li>
+                <li>Docker</li>
+                <li>Outsystems</li>
+                <li>MongoDB</li>
+                <li>MySQL (MariaDB)</li>
+            </ul>
+            </article>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="part" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <article class="card project">
+          <div class="image-frame" id="robot_game_img">
+            <!-- Replace with your screenshot or GIF -->
+            <img src="sandbox_game.png" alt="Screenshot of the sandbox game" />
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">Robot Lab Sandbox</h3>
+            <p class="project__lead">
+                Unity project built as a learning environment to develop and test game features, dynamic assets, interaction systems and creation tools, such as procedural assets generated from an xml file.
+                This project include 3 broad features: object interaction, dynamic assets and modular assets.
+            </p>
+            <p class="meta"><strong>Tools:</strong> Unity (C#), Blender</p>
+            <div class="actions">
+              <a class="btn btn--primary" href="https://github.com/rsscp/robot-lab-game-environment" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="image-frame">
+            <!-- Replace with your screenshot or GIF -->
+            <img src="test_code.png" alt="Example of library usage" />
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">Kotlin Json library and Web Framework</h3>
+            <p class="project__lead">
+              Kotlin library for easy creation of json objects through direct instantiation or by providing an instance of a data class, manipulation of said objects and lightweight REST web framework.
+            </p>
+            <p class="meta"><strong>Tools:</strong> Kotlin, Gradle, Postman</p>
+            <div class="actions">
+              <a class="btn btn--primary" href="https://github.com/rsscp/PA" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="image-frame">
+            <!-- Replace with your screenshot or GIF -->
+            <img src="mysql_up.png" alt="Fault tolorance diagram" />
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">Distributed System Handling of Telemetry Data</h3>
+            <p class="project__lead">
+              Fault tolerant distributed system designed for a scenario of experiment monitoring, where raw telemetry data is stored in a MongoDB cluster and then forwarded to a server for data processing, storage of processed data in an SQL database and user access.
+            </p>
+            <p class="meta"><strong>Tools:</strong> MongoDB, MySQL, Java, MQTT</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Sketches & Redesigns -->
+    <section class="part" id="sketches">
+      <div class="container">
+        <h2 class="section__title">Art</h2>
+        <p class="section__intro">
+          Fan work/designs and shape-language studies.
+        </p>
+        <div class="grid grid--cards">
+          <figure class="card asset">
+            <img class="media__img"  src="sketches/Volibear_Concept.png" alt="Volibear design sketch" />
+            <figcaption class="asset__caption"><strong>Volibear Design</strong></figcaption>
+          </figure>
+
+          <figure class="card asset">
+            <img class="media__img" src="sketches/GloriousEvolution_concept.png" alt="Viktor design sketch" />
+            <figcaption class="asset__caption"><strong>Viktor Design</strong></figcaption>
+          </figure>
+        </div>
+
+        <div class="grid grid--cards">
+            <figure class="card asset" style="width:100%">
+                <img class="media__img" src="sketches/Tower_Godzilla.png" alt="Viktor design sketch" />
+                <figcaption class="asset__caption"><strong>Godzilla Design</strong></figcaption>
+            </figure>
+        </div>
+
+        <div class="grid grid--cards">
+            <figure class="card asset" style="width:100%">
+                <img class="media__img" src="sketches/Iceage_creature.png" alt="Viktor design sketch" />
+                <figcaption class="asset__caption"><strong>Fantasy Creature Design</strong></figcaption>
+            </figure>
+        </div>
+
+        <div class="grid grid--cards">
+          <figure class="card asset">
+            <img class="media__img" src="sketches/RE_like_concept.png" alt="Viktor design sketch" />
+            <figcaption class="asset__caption"><strong>Human/Monster Transformation Concept</strong></figcaption>
+          </figure>
+
+          <figure class="card asset">
+            <img class="media__img" src="sketches/RE_like_concept2.png" alt="Viktor design sketch" />
+            <figcaption class="asset__caption"><strong>Human/Monster Concept</strong></figcaption>
+          </figure>
+        </div>
+
+        <div style="margin: 0 auto">
+          <figure class="card asset" style="margin: 0 auto">
+            <img class="media__img" src="sketches/Universe_Strongest_Beings.png" alt="Viktor design sketch" />
+            <figcaption class="asset__caption"><strong>Fighter Character Design</strong></figcaption>
+          </figure>
+        </div>
+        
+        <p class="fineprint">League of Legends and its characters are property of Riot Games. Designs shown for portfolio purposes only.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="part" id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__links">
+          <a class="btn btn--primary" href="mailto:rosscpe@gmail.com">Email Me</a>
+          <a class="btn btn--ghost" href="https://github.com/rsscp" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn--ghost" href="https://linkedin.com/in/rodrigo_sscp" target="_blank" rel="noopener">LinkedIn</a>
+          <!--<a class="btn btn--ghost" href="docs/resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>-->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  </footer>
+</body>
+</html>
+
