@@ -330,14 +330,12 @@ body {
 }
 
 .skills__card{
-  border: 1px solid var(--skills-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 18px 16px 14px;
 }
 
 .skills__title{
-  color: var(--skills-text);
   font-size: 1.05rem;
   font-weight: 700;
   margin: 0 0 10px;
@@ -346,7 +344,6 @@ body {
 .skills__list{
   margin: 0;
   padding-left: 1.2rem; /* bullet indent */
-  color: var(--skills-text);
   display: grid;
   gap: 6px;
 }
