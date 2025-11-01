@@ -162,6 +162,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  width: 100%;
 }
 
 .sketch_column {
@@ -185,6 +186,13 @@ body {
 
 .sketch_card figcaption {
   margin-bottom: 0 auto
+}
+
+@media (max-width: 900px){
+  .skills__container{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px){
+  .skills__container{ grid-template-columns: 1fr; }
 }
 
 .media__img {
