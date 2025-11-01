@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Skip link for accessibility -->
+  <!-- Skip link -->
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- Site Header -->
@@ -43,7 +43,11 @@
         <h2 class="section__title">About Me</h2>
         <div class="prose">
           <p>
-            I've always been fascinated by games and how the simplest virtual worlds come alive when charged with creativity. They were the catalyst for my interest in art and drawing quickly became my most fulfilling hobby. I also eventually discovered 3d sculpting, modelling, rigging and animation which led me even closer to game development. Now, I hope to contribute to creating games, be it developing core gameplay systems or working closer to game designers and providing tools for content creation.
+            I've always been fascinated by games and how the simplest virtual worlds come alive when charged with creativity.
+            They were the catalyst for my interest in art and drawing quickly became my most fulfilling hobby.
+            I also eventually discovered 3d sculpting, modelling, rigging and animation which led me even closer to game development.
+          </p><p>
+            Now, I hope to contribute to creating games, be it developing core gameplay systems or working closer to game designers and providing tools for content creation.
           </p>
         </div>
       </div>
@@ -51,7 +55,7 @@
 
     <!-- Skills -->
     <section class="part" id="skills">
-        <div class="container">
+      <div class="container">
             <h2 class="section__title">Skills</h2>
             
             <div class="skills__container">
@@ -80,7 +84,7 @@
             </ul>
             </article>
 
-            <article class="skills__card">
+          <article class="skills__card">
             <h3 class="skills__title">Other:</h3>
             <ul class="skills__list">
                 <li>Postman</li>
@@ -91,10 +95,10 @@
                 <li>MongoDB</li>
                 <li>MySQL (MariaDB)</li>
             </ul>
-            </article>
+          </article>
         </div>
 
-        </div>
+      </div>
     </section>
 
     <!-- Projects -->
@@ -103,7 +107,6 @@
         <h2 class="section__title">Projects</h2>
         <article class="card project">
           <div class="image-frame" id="robot_game_img">
-            <!-- Replace with your screenshot or GIF -->
             <img src="sandbox_game.png" alt="Screenshot of the sandbox game" />
           </div>
           <div class="project__body">
@@ -120,8 +123,24 @@
         </article>
 
         <article class="card project">
+          <div class="image-frame" id="robot_game_img">
+            <img src="vision_game.png" alt="Screenshot of the vision system debug" />
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">Stealth Survival Game - Work in Progress</h3>
+            <p class="project__lead">
+                Unity project for a stealth survival game with an emphesis on enemy perception and decision making.
+                In this moment, a vision system that pays attention to both the player and clues in the environment is being developed.
+            </p>
+            <p class="meta"><strong>Tools:</strong> Unity (C#), Blender</p>
+            <div class="actions">
+              <a class="btn btn--primary" href="https://github.com/rsscp/dragon_castle" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project">
           <div class="image-frame">
-            <!-- Replace with your screenshot or GIF -->
             <img src="test_code.png" alt="Example of library usage" />
           </div>
           <div class="project__body">
@@ -138,7 +157,6 @@
 
         <article class="card project">
           <div class="image-frame">
-            <!-- Replace with your screenshot or GIF -->
             <img src="mysql_up.png" alt="Fault tolorance diagram" />
           </div>
           <div class="project__body">
@@ -155,54 +173,74 @@
 
     <!-- Sketches & Redesigns -->
     <section class="part" id="sketches">
-      <div class="container">
+      <div class="container sketch_column">
         <h2 class="section__title">Art</h2>
         <p class="section__intro">
-          Fan work/designs and shape-language studies.
+          Drawing has played such a big part of my life and in my passion for games, I can't imagine not showing it along side the rest of my work.
+          These are some fan work/designs, shape-language studies and recent 3d sculpting.
         </p>
-        <div class="grid grid--cards">
-          <figure class="card asset">
+
+        <div class="sketch_row">
+          <div class="sketch_card" style="width:50%">
             <img class="media__img"  src="sketches/Volibear_Concept.png" alt="Volibear design sketch" />
             <figcaption class="asset__caption"><strong>Volibear Design</strong></figcaption>
-          </figure>
+          </div>
 
-          <figure class="card asset">
+          <div class="sketch_card" style="width:50%">
             <img class="media__img" src="sketches/GloriousEvolution_concept.png" alt="Viktor design sketch" />
             <figcaption class="asset__caption"><strong>Viktor Design</strong></figcaption>
-          </figure>
+          </div>
         </div>
 
-        <div class="grid grid--cards">
-            <figure class="card asset" style="width:100%">
-                <img class="media__img" src="sketches/Tower_Godzilla.png" alt="Viktor design sketch" />
-                <figcaption class="asset__caption"><strong>Godzilla Design</strong></figcaption>
-            </figure>
+        <div class="sketch_row">
+          <div class="sketch_card">
+              <img class="media__img" src="sketches/Tower_Godzilla.png" alt="Godzilla Design" />
+              <figcaption class="asset__caption"><strong>Godzilla Design</strong></figcaption>
+          </div>
         </div>
 
-        <div class="grid grid--cards">
-            <figure class="card asset" style="width:100%">
-                <img class="media__img" src="sketches/Iceage_creature.png" alt="Viktor design sketch" />
-                <figcaption class="asset__caption"><strong>Fantasy Creature Design</strong></figcaption>
-            </figure>
+        <div class="sketch_row">
+          <div class="sketch_card">
+              <img class="media__img" src="sketches/Iceage_creature.png" alt="Fantasy Creature Design" />
+              <figcaption class="asset__caption"><strong>Fantasy Creature Design</strong></figcaption>
+          </div>
         </div>
 
-        <div class="grid grid--cards">
-          <figure class="card asset">
-            <img class="media__img" src="sketches/RE_like_concept.png" alt="Viktor design sketch" />
-            <figcaption class="asset__caption"><strong>Human/Monster Transformation Concept</strong></figcaption>
-          </figure>
-
-          <figure class="card asset">
-            <img class="media__img" src="sketches/RE_like_concept2.png" alt="Viktor design sketch" />
-            <figcaption class="asset__caption"><strong>Human/Monster Concept</strong></figcaption>
-          </figure>
-        </div>
-
-        <div style="margin: 0 auto">
-          <figure class="card asset" style="margin: 0 auto">
-            <img class="media__img" src="sketches/Universe_Strongest_Beings.png" alt="Viktor design sketch" />
+        <div class="sketch_row">
+          <div class="sketch_card" style="width:50%">
+            <img class="media__img" src="sketches/Universe_Strongest_Beings.png" alt="Fighter Character Design"/>
             <figcaption class="asset__caption"><strong>Fighter Character Design</strong></figcaption>
-          </figure>
+          </div>
+
+          <div class="sketch_column" style="width:50%">
+            <div class="sketch_card">
+              <img class="media__img" src="sketches/RE_like_concept2.png" alt="Human/Monster" />
+              <figcaption class="asset__caption"><strong>Human/Monster Concept</strong></figcaption>
+            </div>
+            
+            <div class="sketch_card">
+              <img class="media__img" src="sketches/RE_like_concept.png" alt="Human/Monster Transformation" />
+              <figcaption class="asset__caption"><strong>Human/Monster Transformation Concept</strong></figcaption>
+            </div>
+          </div>
+        </div>
+
+        <div class="sketch_row">
+          <div class="sketch_card" style="width:48.5%">
+              <img class="media__img" src="sketches/dragon2.png" alt="Dragon Worshipper" />
+              <figcaption class="asset__caption"><strong>Dragon Worshipper</strong></figcaption>
+          </div>
+
+          <div class="sketch_column" style="width:51.5%">
+            <div class="sketch_card">
+              <img class="media__img" src="sketches/render1.png" alt="Dragon Worshipper" />
+              <figcaption class="asset__caption"><strong>Dragon Worshipper</strong></figcaption>
+            </div>
+            <div class="sketch_card">
+              <img class="media__img" src="sketches/render2.png" alt="Dragon Worshipper" />
+              <figcaption class="asset__caption"><strong>Dragon Worshipper</strong></figcaption>
+            </div>
+          </div>
         </div>
         
         <p class="fineprint">League of Legends and its characters are property of Riot Games. Designs shown for portfolio purposes only.</p>
@@ -216,7 +254,7 @@
         <div class="contact__links">
           <a class="btn btn--primary" href="mailto:rosscpe@gmail.com">Email Me</a>
           <a class="btn btn--ghost" href="https://github.com/rsscp" target="_blank" rel="noopener">GitHub</a>
-          <a class="btn btn--ghost" href="https://linkedin.com/in/rodrigo_sscp" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="https://linkedin.com/in/rodrigo-sscp" target="_blank" rel="noopener">LinkedIn</a>
           <!--<a class="btn btn--ghost" href="docs/resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>-->
         </div>
       </div>
